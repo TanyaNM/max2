@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(violet, white, blue);
+}
+
+h1, h2 {
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+nav a{
+    text-decoration: none;
+    border: 4px double purple;
+    background-color: greenyellow;
+    margin: 10px;
+    padding: 10px;
+   
+}
+nav{
+    display: flex;
+    justify-content: center;
+   
+}
+nav a:hover{
+    background-color: lightblue;
+    color:white;
+    transition: 1s linear;
+}
+img:hover{
+    border: 8px inset turquoise;
+    transition: 1s linear;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
